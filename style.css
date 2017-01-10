@@ -1,0 +1,34 @@
+#nav {
+  background-color: #cfcfd1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  z-index: +10
+}
+
+#navcontent {
+  position: absolute;
+  text-align: left;
+  font-size: 80px
+}
+
+#background {
+  width: 100%;
+  height: 100%0;
+  background-color: #eaeaea;
+}
+
+#content2 {
+  position: fixed;
+  background-color: #f2f2f2;
+  z-index: -3;
+  left: 15%;
+}
+#content {
+  position: absolute;
+  left: 16%;
+  right: 16%;
+  top: 120px;
+  z-index: +1;
+}
