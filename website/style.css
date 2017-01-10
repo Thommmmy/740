@@ -32,3 +32,11 @@
   top: 155px;
   z-index: +1;
 }
+#shield {
+  margin: auto;
+}
+#shieldiv {
+  position: fixed;
+  right: 5%;
+  top: 30%;
+}
