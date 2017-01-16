@@ -1,16 +1,85 @@
 #nav {
-  background-color: #cfcfd1;
+  background-color: #ffffff;
   position: fixed;
   left: 0;
   top: 0;
-  text-align: center;
   z-index: +10
 }
 
-#navcontent {
-  position: absolute;
-  text-align: left;
-  font-size: 80px
+#navitems {
+				position: fixed;
+				top: 95px;
+				left: 0%;
+				right: 0%;
+				color: gray;
+}
+
+#contact {
+				position: sticky;
+				width: 100%;
+				height: 70px;
+				background-color: #f2f2f2;
+}
+
+#contact p {
+				position:relative;
+				top: 0px;
+				margin: 0;
+				padding: 0;
+				font-size: 14px;
+				text-align: left;
+				display: table; 
+}
+
+#tbritter {
+				position: relative;
+				top: -10px;
+				left: 8px;
+}
+
+#contactdata {
+				position: relative;
+				bottom: 40%;
+				left: 8px;
+}
+
+#mainlinks li {
+	font-size: 28px;
+	font-family: palatino linotype;
+	vertical-align: bottom;
+	display: inline;
+	list-style-type: none;
+	padding-right: 30px;
+}
+
+#mainlinks {
+				position: fixed;
+				width: 100%;
+				left: %;
+}
+
+#mainlinks a {
+		text-decoration: none;
+		color: white;
+}
+#mainlinks a:hover {
+				color: #e2e2e2;
+}
+
+#navtop {
+	position: absolute;
+	top: 0;
+	text-align: center;
+	
+}
+
+#navbottom {
+		text-align: center;
+		background-color: #ad3c3c;
+		position: absolute;
+		top: 105px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		color: white;
 }
 
 #background {
@@ -23,20 +92,106 @@
   position: fixed;
   background-color: #f2f2f2;
   z-index: -3;
-  left: 15%;
+  left: 0%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #content {
   position: absolute;
-  left: 16%;
+  left: 0%;
   right: 16%;
-  top: 155px;
+  top: 200px;
   z-index: +1;
 }
 #shield {
-  margin: auto;
+  margin-left: 2%;
+		
+		
 }
 #shieldiv {
   position: fixed;
-  right: 5%;
+  right: 2%;
   top: 30%;
+		z-index: 30;
 }
+
+a {
+		text-decoration: none;
+		color: black;
+}
+
+h1 {
+		padding: 20px;
+		padding-bottom: 0px;
+}
+
+p {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 80px;
+}
+
+#content img {
+		display: inline-block		
+		text-align: center; 
+}
+
+#imgs {
+		text-align: center
+}
+
+#imgausstellung {
+		padding: 3%;
+		height: 250px;			
+}
+
+#imgansicht {
+		padding: 3%;
+	 height: 250px;
+}
+
+
+
+
+#footer {
+	position: sticky;
+	right: 0%;
+	bottom: 0%;
+	z-index: +20;
+	background-color: #f2f2f2;
+	margin-top: 25px;
+	padding-top: 25px;
+	border-top: 2px solid grey;
+}
+
+#contactdata2 {
+				position: relative;
+				left: -1%;
+				bottom: 110%;
+				text-align: right;
+				padding-bottom: 5px;
+}
+
+#contactdata2 p {
+	text-align: right;
+	display: block;
+	
+}
+
+@media screen and (max-width: 1000px) {
+				#imgansicht {
+								height: 200px;
+				}
+				#imgausstellung {
+								height: 200px;
+				}
+} 
+
+#content3 {
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: 0%;
+	background-color: white;
+	z-index: -400;
+}
+
