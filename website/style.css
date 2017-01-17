@@ -116,7 +116,7 @@ body {
   position: fixed;
   right: 4%;
   top: 30%;
-		z-index: 30;
+	z-index: 30;
 }
 
 a {
@@ -154,12 +154,7 @@ p {
 	 height: 250px;
 }
 
-
-
-
 #footer {
-	position: absolute;
-	right: 0%;
 	z-index: +20;
 	background-color: #f2f2f2;
 	margin-top: 25px;
@@ -172,12 +167,13 @@ p {
 				left: -1%;
 				bottom: 110%;
 				text-align: right;
-				padding-bottom: 5px;
+				padding-bottom: 0px;
 }
 
 #contactdata2 p {
 	text-align: right;
 	display: block;
+	padding-bottom: 0px;
 	
 }
 
@@ -239,6 +235,7 @@ p {
 	top: 0%;
 	background-color: white;
 	z-index: -400;
+	
 }
 
                                                       
