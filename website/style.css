@@ -147,12 +147,12 @@ p {
 
 #imgausstellung {
 		padding: 3%;
-		height: 250px;			
+		height: 350px;			
 }
 
 #imgansicht {
 		padding: 3%;
-	 height: 250px;
+	 height: 350px;
 }
 
 #footer {
@@ -176,6 +176,15 @@ p {
 	display: block;
 	padding-bottom: 0px;
 	
+}
+
+@media screen and (max-width: 1400px) {
+	#imgausstellung {
+		height: 250px;
+	}
+	#imgansicht {
+		height: 250px;
+	}
 }
 
 @media screen and (max-width: 1000px) {
