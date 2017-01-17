@@ -130,6 +130,7 @@ h1 {
 }
 
 p {
+	  font-size: 23px;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		padding-left: 80px;
@@ -195,6 +196,9 @@ p {
 					top: 30%;
 					z-index: 30;
 				}
+					p {
+					font-size: 18px;
+				}
 } 
 
 @media screen and (max-width: 800px) {
@@ -213,10 +217,11 @@ p {
 					top: 30%;
 					z-index: 30;
 				}
-	#mainlinks li a {
-		font-size: 24px;
-	}
-	
+
+				#mainlinks li a {
+					font-size: 24px;
+				}
+}
 	@media screen and (max-width: 760px) {
 				#imgansicht {
 								width: 400px;
