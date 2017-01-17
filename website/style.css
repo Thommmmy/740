@@ -197,6 +197,37 @@ p {
 				}
 } 
 
+@media screen and (max-width: 800px) {
+				#imgansicht {
+								height: 200px;
+				}
+				#imgausstellung {
+								height: 200px;
+				}
+	      #shield {
+           margin-left: 2%;
+        }
+				#shieldiv {
+					position: fixed;
+					right: 0%;
+					top: 30%;
+					z-index: 30;
+				}
+	#mainlinks li a {
+		font-size: 24px;
+	}
+	
+	@media screen and (max-width: 760px) {
+				#imgansicht {
+								width: 400px;
+					      height: 289px;
+				}
+				#imgausstellung {
+					width: 400px;
+					 height: 297px;
+				}
+} 
+
 #content3 {
 	position: absolute;
 	width: 100%;
