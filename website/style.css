@@ -1,5 +1,6 @@
 body {
-	background-color: #e2e2e2 
+	background-color: #e2e2e2;
+	font-family: Arial;
 }
 
 #nav {
@@ -11,6 +12,7 @@ body {
 }
 
 #navitems {
+				width: 85%;
 				position: fixed;
 				top: 95px;
 				left: 0%;
@@ -18,14 +20,61 @@ body {
 				color: gray;
 }
 
+#footer {
+	z-index: +20;
+	background-color: #f2f2f2;
+	margin-top: 25px;
+	padding-top: 25px;
+	border-top: 2px solid grey;
+}
+
+#contactdata2 {
+				position: relative;
+				/* left: -1%;*/
+				bottom: 100%;
+				text-align: left;
+				padding-bottom: 0px;
+}
+
+#contactdata2 p {
+	text-align: left;
+	display: block;
+	padding-bottom: 0px;
+	
+}
+
+
 #contact {
 				position: sticky;
 				width: 100%;
 				height: 70px;
 				background-color: #f2f2f2;
+
+}
+
+#contactdata2 p {
+				position:relative;
+				top: 70px;
+				margin: 0;
+				padding: 0;
+				font-size: 14px;
+				text-align: left;
+				display: table; 
+				left: 80px;
 }
 
 #contact p {
+				position:relative;
+				top: 70px;
+				margin: 0;
+				padding: 0;
+				font-size: 14px;
+				text-align: left;
+				display: table; 
+} 
+
+/* bei anderen seiten wieder reaktivieren */
+/* #contact p {
 				position:relative;
 				top: 0px;
 				margin: 0;
@@ -33,33 +82,44 @@ body {
 				font-size: 14px;
 				text-align: left;
 				display: table; 
-}
+}    
+*/
 
-#tbritter {
+/* nur für startseite display: none*/
+ #tbritter {
+				display: none;
 				position: relative;
 				top: -10px;
-				left: 8px;
+				left: 80px;
 }
 
+/* nur für startseite display: none*/
 #contactdata {
+				display: none;
 				position: relative;
 				bottom: 40%;
-				left: 8px;
+				left: 80px;
 }
+
+
 
 #mainlinks li {
 	font-size: 28px;
-	font-family: palatino linotype;
-	vertical-align: bottom;
+	font-family: Arial;
 	display: inline;
 	list-style-type: none;
 	padding-right: 30px;
+	padding-left: 0px;
+	margin-left: -44px;
+	margin-right: 44px;
 }
 
 #mainlinks {
 				position: fixed;
-				width: 100%;
-				left: -3%;
+				width: 85%;
+				left: 80px;
+				text-align: left;
+				
 }
 
 #mainlinks a {
@@ -127,6 +187,7 @@ a {
 h1 {
 		padding: 20px;
 		padding-bottom: 0px;
+		padding-left: 80px;
 }
 
 p {
@@ -155,28 +216,6 @@ p {
 	 height: 350px;
 }
 
-#footer {
-	z-index: +20;
-	background-color: #f2f2f2;
-	margin-top: 25px;
-	padding-top: 25px;
-	border-top: 2px solid grey;
-}
-
-#contactdata2 {
-				position: relative;
-				left: -1%;
-				bottom: 110%;
-				text-align: right;
-				padding-bottom: 0px;
-}
-
-#contactdata2 p {
-	text-align: right;
-	display: block;
-	padding-bottom: 0px;
-	
-}
 
 @media screen and (max-width: 1400px) {
 	#imgausstellung {
@@ -196,9 +235,7 @@ p {
 				}
 	      #shield {
   margin-left: 2%;
-		
-		
-        }
+	 }
 				#shieldiv {
 					position: fixed;
 					right: 2%;
@@ -208,7 +245,17 @@ p {
 					p {
 					font-size: 18px;
 				}
+	#mainlinks li { 
+				padding-right: 15px;
+	}
 } 
+
+@media screen and (max-width: 900px) { 
+					#mainlinks li a {
+					font-size: 24px;
+				}
+}
+
 
 @media screen and (max-width: 800px) {
 				#imgansicht {
@@ -227,9 +274,7 @@ p {
 					z-index: 30;
 				}
 
-				#mainlinks li a {
-					font-size: 24px;
-				}
+
 }
 	@media screen and (max-width: 760px) {
 				#imgansicht {
@@ -240,6 +285,13 @@ p {
 					width: 400px;
 					 height: 297px;
 				}
+		h1 {
+			font-size: 28px
+		}
+		p {
+			font-size: 15px;
+		}
+		
 } 
 
 #content3 {
@@ -253,3 +305,59 @@ p {
 }
 
                                                       
+@media screen and (max-width: 740px) {
+	html {
+		width: 740px;
+
+	}
+	body {
+		width: 740px;
+	}
+	#contentall {
+		position: relative;
+		width: 740px;
+  height: 1300px;
+		left: -10px;
+		top: -10px
+		
+	}
+	#content2 {
+		position: relative;
+		top: -160px;
+		left: 0px;
+		width: 573px;
+	}
+	#content {
+		position: relative;
+		width: 573px;
+		top: -1300px
+	}
+	#shieldiv {
+	position: relative;
+		width: 100px;
+		top: -2200px;
+		right: -640px;
+	}
+	#nav {
+		position: relative;
+		width: 740px;
+	}
+	#navbottom {
+		position: relative;
+		top: -16px
+	}
+	#navitems {
+		position: relative;
+		top: -0px;
+		z-index: +30;
+	}
+	#mainlinks {
+		position: relative;
+		width: 600px;
+		left: 60px;
+		top: 4px;
+	}
+	#navtop {
+		position: relative;
+	}
+}
