@@ -315,9 +315,9 @@ p {
 	}
 	#contentall {
 		position: relative;
-		width: 740px;
+		width: 750px;
   height: 1300px;
-		left: -10px;
+		left: -8px;
 		top: -10px
 		
 	}
@@ -330,7 +330,7 @@ p {
 	#content {
 		position: relative;
 		width: 573px;
-		top: -1300px
+		top: -1302px
 	}
 	#shieldiv {
 	position: relative;
@@ -340,11 +340,12 @@ p {
 	}
 	#nav {
 		position: relative;
-		width: 740px;
+		width: 780px;
+		left: 0px;
 	}
 	#navbottom {
 		position: relative;
-		top: -16px
+		top: -16px;
 	}
 	#navitems {
 		position: relative;
