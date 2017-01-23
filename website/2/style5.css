@@ -53,6 +53,10 @@ body {
 
 }
 
+p {
+	margin-right: 80px;
+}
+
 #contactdata2 p {
 				position:relative;
 				top: 70px;
