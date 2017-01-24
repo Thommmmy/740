@@ -11,6 +11,21 @@ body {
   z-index: +10
 }
 
+#navtop {
+	position: absolute;
+	top: 0;
+	text-align: center;
+	z-index: -85;
+}
+
+#navtop img {
+	display: inline;
+	height: 110px;
+	top: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
 #navitems {
 				width: 85%;
 				position: fixed;
