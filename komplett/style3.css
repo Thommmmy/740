@@ -1,0 +1,2000 @@
+body {
+	background-color: #e2e2e2;
+	font-family: Arial;
+	color: white;
+}
+
+#nav {
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: +10
+}
+
+#navtop {
+	position: absolute;
+	top: 0;
+	text-align: center;
+	z-index: -85;
+	min-width: 740px;
+}
+#navtop {
+	position: absolute;
+	top: 0;
+	text-align: center;
+	background-image: url(head4.jpg);
+	background-size:cover;
+}
+
+#navtop img {
+	display: inline;
+	height: 110px;
+	top: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#navitems {
+				width: 85%;
+				position: fixed;
+				top: 97px;
+				left: 0%;
+				right: 0%;
+				color: gray;
+			min-width: 740px;
+}
+
+#navitems2 {
+				width: 85%;
+				position: fixed;
+				top: 149px;
+				left: 0%;
+				right: 0%;
+				color: gray;
+				min-width: 600px;
+}
+
+#footer {
+	z-index: +20;
+	background-color: #6c6d6d;
+	margin-top: 25px;
+	padding-top: 25px;
+	border-top: 2px solid white;
+}
+
+#content img {
+		display: inline;		
+		text-align: center; 
+}
+
+#imgs {
+	display: inline;
+}
+#contactdata2 {
+				position: relative;
+				/* left: -1%;*/
+				bottom: 100%;
+				text-align: left;
+				padding-bottom: 0px;
+}
+
+#contactdata2 p {
+	text-align: left;
+	display: block;
+	padding-bottom: 0px;
+	
+}
+
+
+#contact {
+				position: sticky;
+				width: 100%;
+				height: 70px;
+				background-color: #f2f2f2;
+
+}
+
+#contactdata2 p {
+				position:relative;
+				top: 70px;
+				margin: 0;
+				padding: 0;
+				font-size: 14px;
+				text-align: left;
+				display: table; 
+				left: 80px;
+}
+
+#contact p {
+				position:relative;
+				top: 70px;
+				margin: 0;
+				padding: 0;
+				font-size: 14px;
+				text-align: left;
+				display: table; 
+} 
+
+/* bei anderen seiten wieder reaktivieren */
+/* #contact p {
+				position:relative;
+				top: 0px;
+				margin: 0;
+				padding: 0;
+				font-size: 14px;
+				text-align: left;
+				display: table; 
+}    
+*/
+
+/* nur für startseite display: none*/
+ #tbritter {
+				display: none;
+				position: relative;
+				top: -10px;
+				left: 80px;
+}
+
+/* nur für startseite display: none*/
+#contactdata {
+				display: none;
+				position: relative;
+				bottom: 40%;
+				left: 80px;
+}
+
+#mainlinks li {
+	font-size: 28px;
+	font-family: Arial;
+	display: inline;
+	list-style-type: none;
+	padding-right: 30px;
+	padding-left: 0px;
+	margin-left: -44px;
+	margin-right: 44px;
+}
+
+#mainlinks2 li {
+	font-size: 19px;
+	font-family: Arial;
+	display: inline;
+	list-style-type: none;
+	padding-right: 30px;
+	padding-left: 0px;
+	margin-left: -44px;
+	margin-right: 44px;
+}
+
+#mainlinks2 {
+				position: fixed;
+				width: 85%;
+				left: 80px;
+				text-align: left;
+				min-width: 620px;
+				
+}
+
+#mainlinks {
+				position: fixed;
+				width: 85%;
+				left: 80px;
+				text-align: left;
+				color: white;
+				text-decoration-color: white;
+				min-width: 620px;
+}
+
+#mainlinks2 a {
+		text-decoration: none;
+		color: white;
+}
+
+#mainlinks a:hover {
+				color: #e2e2e2;
+}
+
+#mainlinks a {
+		text-decoration: none;
+		color: white;
+}
+#mainlinks a:hover {
+				color: #e2e2e2;
+}
+
+#mainlinks2 .linkactive a {
+	text-decoration: underline;
+}
+
+
+#navtop {
+	position: absolute;
+	top: 0;
+	text-align: center;
+	
+}
+
+#navbottom {
+		text-align: center;
+		background-color:#9A0B1B;
+		position: absolute;
+		top: 105px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		color: white;
+		min-width: 740px;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  background-color: #eaeaea;
+}
+
+#content2 {
+  position: fixed;
+  background-color: #6c6d6d;
+  z-index: -3;
+  left: 0%;
+	top: 0%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#content {
+  position: absolute;
+  left: 0%;
+  right: 16%;
+  top: 200px;
+  z-index: +1;
+
+}
+#shield {
+  margin-left: 2%;
+}
+#shieldiv {
+  position: fixed;
+  right: 4%;
+  top: 30%;
+	z-index: 30;
+}
+
+a {
+		text-decoration: none;
+		color: black;
+}
+
+h1 {
+	font-size: 25px;
+		padding: 20px;
+		padding-bottom: 0px;
+		padding-left: 80px;
+}
+#zwei {
+	padding-bottom: 20px;
+	padding-top: 30px
+}
+#zwei p {
+	margin-bottom: 50px;
+	margin-right: 80px;
+}
+
+p {
+	  font-size: 14px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 80px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+}
+
+
+#eins p {
+	 font-size: 18px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 80px;
+		margin-right: 80px;
+}
+
+#eins strong p {
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+#content img {
+		display: inline-block		
+		text-align: center; 
+}
+
+.broad {
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0px;
+	display: inline-block;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.nbroad {
+		width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 50px;
+}
+
+#imgs {
+		text-align: center
+}
+
+#imgausstellung {
+		padding: 3%;
+		height: 350px;			
+}
+
+#imgansicht {
+		padding: 3%;
+	 height: 350px;
+}
+
+#sylvia {
+	position: relative;
+	float: right;
+	height: 180px;
+	bottom: 83px;
+	right: 20px;
+}
+
+#kontaktlinks p {
+	padding-left: 0px;
+	width: 60%;
+}
+
+#kontaktlinks {
+	display: block;
+	position: relative;
+	margin-top: 20px;
+	width: 85%;
+	left: 80px;
+	margin-bottom: 50px;
+}
+
+#kontaktdiv {
+	border-top: solid 2px white;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	padding-right: 0px;
+}
+
+#kontaktdiv p {
+	margin-right: 80px
+}
+
+#tel {
+	padding-top: 20px
+}
+
+@media screen and (max-height: 680px) { 
+	#shieldiv {
+		top: 10px;
+		left: 103%;
+		z-index: 1;
+		position: absolute;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	#imgausstellung {
+		height: 250px;
+	}
+	#imgansicht {
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+				#imgansicht {
+								height: 200px;
+				}
+				#imgausstellung {
+								height: 200px;
+				}
+	      #shield {
+  margin-left: 2%;
+	 }
+				#shieldiv {
+					right: 2%;
+					z-index: 30;
+				}
+					p {
+					font-size: 14px;
+				}
+	#mainlinks li { 
+				padding-right: 15px;
+	}
+	#sylvia {
+		bottom: 115px;
+		right: 40px;
+		height: 140px;
+	}
+} 
+
+@media screen and (max-width: 900px) { 
+					#mainlinks li a {
+					font-size: 24px;
+				}
+	#sylvia {
+		bottom: 115px;
+		height: 140px;
+		right: 40px;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+				#imgansicht {
+								height: 200px;
+				}
+				#imgausstellung {
+								height: 200px;
+				}
+	      #shield {
+           margin-left: 2%;
+        }
+				#shieldiv {
+					right: 0%;
+					z-index: 30;
+				}
+	#kontaktdiv p {
+		margin-right: 200px;
+	}
+
+}
+	@media screen and (max-width: 760px) {
+				#imgansicht {
+								width: 400px;
+					      height: 289px;
+				}
+				#imgausstellung {
+					width: 400px;
+					 height: 297px;
+				}
+		h1 {
+			font-size: 28px
+		}
+		p {
+			font-size: 14px;
+		}
+		
+} 
+
+#content3 {
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: 0%;
+	background-color: white;
+	z-index: -400;
+	
+}
+
+.linkactive {
+	text-decoration: underline;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	background-image: url("Rose.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	margin-bottom: 30px;
+	padding: 5px 20px px 20px;
+
+}
+.close {
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: 20px;
+	width: 24px;
+	text-decoration: none;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog2 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog2:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog2 > div {
+	background-image: url("Inspiration.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog3 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog3:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog3 > div {
+	background-image: url("Wei%C3%9Fe%20Tulpe.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog4 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog4:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog4 > div {
+	background-image: url("Garten2.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog5 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+
+}
+.modalDialog5:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog5 > div {
+	background-image: url("Mondkatze.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog6 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	margin-bottom: -120px;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	overflow: auto;
+}
+.modalDialog6:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog6 > div {
+	background-image: url("kleine%20Schnecke.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 100%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog7 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog7:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog7 > div {
+	background-image: url("OT.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog8 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog8:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog8 > div {
+	background-image: url("Turtle's%20dream%20of%20a%20lost%20paradise.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog9 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog9:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog9 > div {
+	background-image: url("Garten.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog10 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog10:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog10 > div {
+	background-image: url("Bergdorf.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog11 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog11:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog11 > div {
+	background-image: url("Rundes%20Bild.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog12 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog12:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog12 > div {
+	background-image: url("Heimat.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog13 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog13:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog13 > div {
+	background-image: url("Fr%C3%BChling.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog14 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog14:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog14 > div {
+	background-image: url("M%C3%A4rchengarten.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog15 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog15:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog15 > div {
+	background-image: url("Am%20Strand.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog16 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog16:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog16 > div {
+	background-image: url("Die%20Geburt.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog17 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog17:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog17 > div {
+	background-image: url("Dorfbrunnen.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog18 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog18:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog18 > div {
+	background-image: url("oT2.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog19 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog19:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog19 > div {
+	background-image: url("Italien.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog20 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog20:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog20 > div {
+	background-image: url("Ein%20Traum.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog21 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog21:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog21 > div {
+	background-image: url("Vogel.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog22 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog22:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog22 > div {
+	background-image: url("Morgenlicht.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog23 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog23:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog23 > div {
+	background-image: url("Rose1.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog24 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog24:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog24 > div {
+	background-image: url("Toscana.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.modalDialog25 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog25:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog25 > div {
+	background-image: url("Abendsonne.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+}
+
+
+.modalDialog26 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog26:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog26 > div {
+	background-image: url("Traube.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+
+}
+
+.modalDialog27 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog27:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog27 > div {
+	background-image: url("Yin%20und%20Yang.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+
+}
+.modalDialog28 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 85%;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog28:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog28 > div {
+	background-image: url("DSC01637.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: -60px;
+	height: 87%;
+	width: 515px;
+	position: relative;
+	bottom: 80px;
+	margin: 10% auto;
+	padding: 5px 20px px 20px;
+
+}
+
+.broad:hover {
+	opacity: 0.5;
+	
+}
+.imgwrap:hover .imgdescription {
+	opacity: 10000;
+	visibility: visible;
+	transition: 0.5s;
+	z-index: 1000;
+}
+
+.broad .imgdescription:hover .broad {
+	opacity: 0.5;
+}
+
+.imgwrap {
+	display: inline-block;
+		margin-top: 50px;
+	width: 20%;
+	height: 10%;
+	margin-left: 4%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 100000;
+}
+
+.imgwrap .broad {
+	position: relative;
+	right: 0;
+	left: 0;
+}
+.imgdescription {
+	position: relative;
+	top: 0px;
+ width: 100%;
+	bottom: 0px;
+	z-index: -4;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.imgdescription p {
+	padding-left: 2%;
+	z-index: 0;
+}
+
+
+                                                      
+@media screen and (max-width: 740px) {
+	#nav {
+		position: absolute;
+		z-index: 1;
+	}
+	#mainlinks {
+		position: absolute;
+		width: 500px;
+	}
+	#mainlinks2 {
+		position: absolute;
+		top: -102px
+	}
+	#navitems {
+		position: absolute;
+		top: 0px;
+	}
+	#navitems2 {
+		position: absolute;
+	}
+	#content2 {
+			min-width: 740px;
+		left: 0px;
+	}
+		#content {
+			min-width: 736px;
+	}
+		#shieldiv {
+		display: none;
+	}
+	#imgs {
+		text-align: left;
+	}
+	#imgansicht {
+		padding-left: 100px;
+	}
+	.modalDialog {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+		.modalDialog2 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog2 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+		.modalDialog3 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog3 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+			.modalDialog4 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog4 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog5 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog5 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog6 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog6 > div {
+		position: relative;
+		height: 740px;
+		width: 600px;
+	}
+	
+		.modalDialog7 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog7 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog8 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog8 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog9 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog9 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog10 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog10 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog11 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog11 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog12 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog12 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog13 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog13 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog14 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog14 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog15 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog15 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog16 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog16 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog17 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog17 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog18 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog18 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog19 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog19 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog20 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog20 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog21 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog21 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog22 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog22 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog23 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog23 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog24 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog24 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog25 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog25 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog26 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog26 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog27 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog27 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog28 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog28 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog29 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog29 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog30 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog30 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog31 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog31 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+		.modalDialog32 {
+		position: absolute;
+		width: 740px;
+		height: 1883px;;
+		top: 0px;
+		z-index: 10;
+	}
+	.modalDialog32 > div {
+		position: relative;
+		height: 740px;
+		width: 600px
+	}
+	
+}
